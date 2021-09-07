@@ -1,3 +1,59 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+form label {
+  width: 100%;
+}
+
+#coach-input {
+  margin-top: 8px;
+  border: 1px solid rgb(67, 67, 255);
+  border-radius: 4px 0 0 4px;
+  padding: 1em 1.5em;
+  border-right: none;
+}
+
+#coach-input-submit {
+  border: 1px solid rgb(67, 67, 255);
+  background-color: rgb(67, 67, 255);
+  color: white;
+  font-weight: 600;
+  border-radius: 0 4px 4px 0;
+  padding: 1em 1.5em;
+}
+
+.speech {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0 0 20px;
+  width: 50%;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  &:hover {
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    border: 1px solid rgb(255, 255, 255);
+  }
+}
+.highlight {
+  background-color: rgb(67, 67, 255);
+  width: 10px;
+  height: auto;
+  border-radius: 10px 0 0 10px;
+}
+.real-speech {
+  padding: 20px;
+}
